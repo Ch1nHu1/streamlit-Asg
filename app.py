@@ -27,7 +27,7 @@ def preprocess_image(img):
 
 # Streamlit UI
 st.title("🤖 CrackGuard – Your first line of defence against failure")
-st.text("created by TanCW")
+st.text("created by Ooi Chin Hui")
 uploaded_files = st.file_uploader("Upload multiple images...", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
 
 
@@ -111,3 +111,4 @@ if uploaded_files:
 
         # Clean up pie chart image
         os.remove(pie_path)
+
